@@ -1,0 +1,80 @@
+ /*body {
+    background-color: blue;
+} */
+
+#container {
+    height: 450px;
+    width: 850px;
+    margin: 0 auto;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial; 
+    font-style: bold;
+    font-weight: 900; 
+    height: 450px;
+    width: 850px;
+    margin: 0 auto;
+    font-size: 80px;
+    color: rgb(250, 246, 246);
+    background-image: url("wise_nebula.jpg");
+    background-size: cover;
+    margin-bottom: 20px; 
+}
+
+#content {
+ width: 850px;
+ height: 324;
+ background-color:#e2e4e3ec;;
+ display: flex;
+ 
+
+}
+
+#subject {
+    height: 324px;
+    width: 270px;
+    padding: 20px;
+}
+h2 { 
+       font-size: 15px;
+       font-family: Arial;
+       padding-bottom: 20px;
+       font-weight: 900;
+     }
+     
+p {
+
+    color:DimGrey;
+    font-family: Arial;
+    font-size: small;
+    line-height: 10px;
+    font-weight: lighter
+    
+ }
+ 
+input[type=text]{
+    width: 250px;
+    height: 20px;
+    
+   
+  }
+input[type=text2]{
+    width: 250px;
+    height: 60px;
+   
+}
+
+button {
+    color: White;
+    width: 60px;
+    margin-top: 7px;
+    font-family: Arial;
+    font-weight: 900;
+    background-color:rgba(67, 70, 69, 0.925);
+    line-height: 20px;
+
+  }
